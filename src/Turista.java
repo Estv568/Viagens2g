@@ -2,12 +2,15 @@ package Turista;
 
 public class Turista {
 
+    Validarcpf validarcpf;
+
+
     /// Atributos
     private String nome;
-    private String cpf;
+    private validarcpf cpf;
 
     public String getNome(){
-        return.nome;
+        return nome;
     }
     //metodos
     public String viajar(){
@@ -19,7 +22,8 @@ public class Turista {
     //sobrecarga do construtor personalizado
 
     Turista(String _nome){
-        this.nome =
+
+        this.nome = _nome;
     }
 
 }
